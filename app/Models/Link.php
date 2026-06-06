@@ -16,12 +16,4 @@ class Link extends Model
         'code',
         'clicks'
     ];
-
-    protected $guarded = [
-        'created_at',
-    ];
-
-    protected $casts = [
-        'created_at' => 'datetime:Y-m-d H:i:s',
-    ];
 }
